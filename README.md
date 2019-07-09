@@ -7,6 +7,7 @@
 -----
 注意！我们只允许你修改以下文件，对其他文件的修改会被拒绝：
 - [src/main/java/com/github/hcsp/shell/Fork.java](https://github.com/hcsp/java-fork-process/blob/master/src/main/java/com/github/hcsp/shell/Fork.java)
+- [working-directory/output.txt](https://github.com/hcsp/java-fork-process/blob/master/working-directory/output.txt)
 -----
 
 

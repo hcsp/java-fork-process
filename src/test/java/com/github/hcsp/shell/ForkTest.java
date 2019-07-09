@@ -14,7 +14,7 @@ public class ForkTest {
                 Paths.get(System.getProperty("user.dir")).resolve("working-directory/output.txt");
         String output = new String(Files.readAllBytes(outputFile));
         Assertions.assertTrue(output.contains("AAA is: 123"));
-        Assertions.assertTrue(output.contains("6B"));
-        Assertions.assertTrue(output.contains(".hidden"));
+        Assertions.assertTrue(output.contains("11K"));
+        Assertions.assertTrue(output.contains(".hidden.txt"));
     }
 }
