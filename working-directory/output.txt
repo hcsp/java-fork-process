@@ -1,0 +1,7 @@
+AAA is: 123
+total 18K
+-rw-r--r-- 1 东方来客 197121  12 Jul 16 23:07 output.txt
+drwxr-xr-x 1 东方来客 197121   0 Jul 16 22:53 ..
+drwxr-xr-x 1 东方来客 197121   0 Jul 16 22:40 .
+-rw-r--r-- 1 东方来客 197121 11K Jul 16 22:40 .hidden.txt
+-rwxr-xr-x 1 东方来客 197121  50 Jul 16 22:40 run.sh
