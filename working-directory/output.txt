@@ -1,7 +1,0 @@
-AAA is: 123
-total 40
--rw-r--r--   1 xiongzc  staff    12B  7 28 23:48 output.txt
-drwxr-xr-x  12 xiongzc  staff   384B  7 28 23:48 ..
--rw-r--r--   1 xiongzc  staff    47B  7 28 23:42 run.sh
-drwxr-xr-x   5 xiongzc  staff   160B  7 28 23:42 .
--rw-r--r--   1 xiongzc  staff    11K  7 28 23:42 .hidden.txt
