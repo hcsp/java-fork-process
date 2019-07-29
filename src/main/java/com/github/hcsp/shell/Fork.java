@@ -14,7 +14,7 @@ public class Fork {
         pb.directory(getWorkingDir())
                 .redirectOutput(getOutputFile())
                 .environment().put("AAA", "123");
-        pb.start();
+        pb.start().waitFor();
     }
 
     private static File getWorkingDir() {
