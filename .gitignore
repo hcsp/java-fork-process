@@ -1,7 +1,7 @@
-.idea/
-.gradle/
-build/
-out/
-target/
-*.iml
-working-directory/*
+#.idea/
+#.gradle/
+#build/
+#out/
+#target/
+#*.iml
+#working-directory/*

@@ -1,0 +1,7 @@
+AAA is: 123
+total 40
+-rw-r--r--   1 dsying  staff    12B  7 29 15:55 output.txt
+drwxr-xr-x  12 dsying  staff   384B  7 29 15:52 ..
+-rw-r--r--   1 dsying  staff    47B  7 29 14:22 run.sh
+drwxr-xr-x   5 dsying  staff   160B  7 29 14:22 .
+-rw-r--r--   1 dsying  staff    11K  7 29 14:22 .hidden.txt
