@@ -1,0 +1,7 @@
+AAA is: 123
+total 18K
+-rw-r--r-- 1 acton 197609  12  8月 15 11:40 output.txt
+drwxr-xr-x 1 acton 197609   0  8月 15 11:40 ..
+drwxr-xr-x 1 acton 197609   0  8月 14 18:14 .
+-rw-r--r-- 1 acton 197609 11K  8月 14 18:14 .hidden.txt
+-rwxr-xr-x 1 acton 197609  50  8月 14 18:14 run.sh
