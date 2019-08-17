@@ -3,8 +3,6 @@ package com.github.hcsp.shell;
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Map;
-
 
 public class Fork {
     public static void main(String[] args) throws Exception {
@@ -12,13 +10,6 @@ public class Fork {
         // 工作目录是项目目录下的working-directory目录（可以用getWorkingDir()方法得到这个目录对应的File对象）
         // 传递的命令是sh run.sh
         // 环境变量是AAA=123
-        //命令行4要素，可执行程序、工作目录、环境变量、参数
-        ProcessBuilder pb = new ProcessBuilder("sh", "run.sh");
-        pb.directory(getWorkingDir());
-        Map<String, String> envs = pb.environment();
-        envs.put("AAA", "123");
-        pb.redirectOutput(getOutputFile());
-        pb.start().waitFor();
     }
 
     private static File getWorkingDir() {
