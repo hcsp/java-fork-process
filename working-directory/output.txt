@@ -1,0 +1,7 @@
+AAA is: 123
+总用量 28K
+-rw-rw-r-- 1 xiao xiao   12 Sep  1 17:43 output.txt
+drwxrwxr-x 8 xiao xiao 4.0K Sep  1 17:43 ..
+drwxrwxr-x 2 xiao xiao 4.0K Sep  1 17:15 .
+-rw-rw-r-- 1 xiao xiao  11K Sep  1 17:15 .hidden.txt
+-rw-rw-r-- 1 xiao xiao   47 Sep  1 17:15 run.sh
