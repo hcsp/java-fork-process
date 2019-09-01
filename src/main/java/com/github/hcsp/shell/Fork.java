@@ -16,6 +16,7 @@ public class Fork {
         Map<String,String> envs = pb.environment();
         envs.put("AAA","123");
         pb.start().waitFor();
+
     }
 
     private static File getWorkingDir() {
