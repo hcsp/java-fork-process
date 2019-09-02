@@ -15,6 +15,7 @@ public class Fork {
         pb.directory(getWorkingDir());
         Map<String,String> envs = pb.environment();
         envs.put("AAA","123");
+        pb.redirectOutput(getOutputFile());
         pb.start().waitFor();
 
     }
