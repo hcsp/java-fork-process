@@ -1,7 +1,7 @@
 AAA is: 123
 总用量 28K
--rw-r--r-- 1 sdqs-zy sdqs-zy   12 9月  26 09:49 output.txt
-drwxr-xr-x 9 sdqs-zy sdqs-zy 4.0K 9月  26 09:48 ..
+-rw-r--r-- 1 sdqs-zy sdqs-zy   12 9月  26 10:44 output.txt
+drwxr-xr-x 9 sdqs-zy sdqs-zy 4.0K 9月  26 10:44 ..
 drwxr-xr-x 2 sdqs-zy sdqs-zy 4.0K 9月  25 17:50 .
 -rw-r--r-- 1 sdqs-zy sdqs-zy  11K 9月  25 17:50 .hidden.txt
 -rw-r--r-- 1 sdqs-zy sdqs-zy   47 9月  25 17:50 run.sh
