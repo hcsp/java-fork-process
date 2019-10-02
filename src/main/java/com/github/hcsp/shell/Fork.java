@@ -23,7 +23,7 @@ public class Fork {
         envs.put("AAA","123");
         // 将次进程构建器的标准输入源设置为目标文件
         // 也就是把结果输出到参数文件中
-        pb.redirectInput(getOutputFile());
+        pb.redirectOutput(getOutputFile());
         // 开始进程,并且等待其执行完成
         pb.start().waitFor();
     }
