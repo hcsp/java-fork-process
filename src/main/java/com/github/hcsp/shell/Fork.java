@@ -12,7 +12,7 @@ public class Fork {
         // 传递的命令是sh run.sh
         // 环境变量是AAA=123
         ProcessBuilder pb = new ProcessBuilder("sh","run.sh");
-        pb.directory(getOutputFile());
+        pb.directory(getWorkingDir());
         Map<String,String> envs = pb.environment();
         envs.put("AAA","123");
         pb.redirectOutput(getOutputFile());
