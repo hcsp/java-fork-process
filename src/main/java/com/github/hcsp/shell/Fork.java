@@ -19,8 +19,11 @@ public class Fork {
         //4.环境变量
         Map<String,String> envs = processBuilder.environment();
         envs.put("AAA","123");
-        //5.启动processBuilder
+        //5.重定向到output.txt
+        processBuilder.redirectOutput(getOutputFile());
+        //6.启动processBuilder
         processBuilder.start().waitFor();
+
     }
 
     private static File getWorkingDir() {
