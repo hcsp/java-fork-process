@@ -1,7 +1,7 @@
 AAA is: 123
 total 40
--rw-r--r--   1 Jason  staff    12B Oct 25 10:12 output.txt
-drwxr-xr-x  13 Jason  staff   416B Oct 25 10:12 ..
+-rw-r--r--   1 Jason  staff    12B Oct 25 10:32 output.txt
+drwxr-xr-x  13 Jason  staff   416B Oct 25 10:32 ..
 -rw-r--r--   1 Jason  staff    47B Oct 25 10:10 run.sh
 drwxr-xr-x   5 Jason  staff   160B Oct 25 10:10 .
 -rw-r--r--   1 Jason  staff    11K Oct 25 10:10 .hidden.txt
