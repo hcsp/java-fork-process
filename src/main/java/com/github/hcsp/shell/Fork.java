@@ -3,20 +3,13 @@ package com.github.hcsp.shell;
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Map;
 
 public class Fork {
     public static void main(String[] args) throws Exception {
         // 请在这里使用Java代码fork一个子进程，将fork的子进程的标准输出重定向到指定文件：工作目录下名为output.txt的文件
         // 工作目录是项目目录下的working-directory目录（可以用getWorkingDir()方法得到这个目录对应的File对象）
         // 传递的命令是sh run.sh
-        ProcessBuilder processBuilder = new ProcessBuilder("sh", "run.sh");
-        processBuilder.directory(getWorkingDir());
-        Map<String ,String> envs = processBuilder.environment();
         // 环境变量是AAA=123
-        envs.put("AAA", "123");
-        processBuilder.redirectOutput(getOutputFile());
-        processBuilder.start().waitFor();
     }
 
     private static File getWorkingDir() {
