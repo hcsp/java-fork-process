@@ -15,7 +15,7 @@ public class Fork {
         processBuilder.directory(getWorkingDir());
         Map<String,String> envs = processBuilder.environment();
         envs.put("AAA","123");
-        processBuilder.inheritIO();
+        processBuilder.redirectOutput(getOutputFile());
         processBuilder.start().waitFor();
     }
 
