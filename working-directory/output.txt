@@ -1,7 +1,0 @@
-AAA is: 123
-total 18K
--rw-r--r-- 1 ZN 197121  12 Jan 18 23:45 output.txt
-drwxr-xr-x 1 ZN 197121   0 Jan 18 23:45 ..
-drwxr-xr-x 1 ZN 197121   0 Jan 18 22:29 .
--rw-r--r-- 1 ZN 197121 11K Jan 18 22:29 .hidden.txt
--rwxr-xr-x 1 ZN 197121  50 Jan 18 22:29 run.sh
