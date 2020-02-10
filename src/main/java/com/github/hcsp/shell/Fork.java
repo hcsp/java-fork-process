@@ -1,7 +1,4 @@
 package com.github.hcsp.shell;
-
-import com.sun.javafx.collections.MappingChange;
-
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
