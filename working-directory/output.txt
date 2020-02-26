@@ -1,0 +1,7 @@
+AAA is: 123
+total 18K
+-rw-r--r-- 1 ljb99 197609  12  2月 25 19:28 output.txt
+drwxr-xr-x 1 ljb99 197609   0  2月 25 19:28 ..
+drwxr-xr-x 1 ljb99 197609   0  2月 25 19:11 .
+-rwxr-xr-x 1 ljb99 197609  50  2月 25 19:11 run.sh
+-rw-r--r-- 1 ljb99 197609 11K  2月 25 19:11 .hidden.txt
