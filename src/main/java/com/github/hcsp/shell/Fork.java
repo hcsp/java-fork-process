@@ -19,6 +19,7 @@ public class Fork {
         pb.start().waitFor();
     }
 
+
     private static File getWorkingDir() {
         Path projectDir = Paths.get(System.getProperty("user.dir"));
         return projectDir.resolve("working-directory").toFile();
