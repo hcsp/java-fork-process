@@ -1,8 +1,6 @@
 package com.github.hcsp.shell;
 
-
-import java.io.*;
-import java.nio.file.Files;
+import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -12,19 +10,6 @@ public class Fork {
         // 工作目录是项目目录下的working-directory目录（可以用getWorkingDir()方法得到这个目录对应的File对象）
         // 传递的命令是sh run.sh
         // 环境变量是AAA=123
-        String[] envp = {"AAA=123"};
-        Runtime runtime = Runtime.getRuntime();
-        Process ps = runtime.exec("sh run.sh", envp, getWorkingDir());
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(ps.getInputStream()));
-        String readline = null;
-        BufferedWriter bufferedWriter = Files.newBufferedWriter(getOutputFile().toPath());
-        while ((readline = bufferedReader.readLine()) != null) {
-            bufferedWriter.write(readline + "\n");
-
-        }
-        bufferedWriter.flush();
-        bufferedReader.close();
-        bufferedWriter.close();
     }
 
     private static File getWorkingDir() {
