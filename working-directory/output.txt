@@ -1,0 +1,7 @@
+AAA is: 123
+total 18K
+-rw-r--r-- 1 intel 197121  12 Mar 12 21:19 output.txt
+drwxr-xr-x 1 intel 197121   0 Mar 12 21:19 ..
+drwxr-xr-x 1 intel 197121   0 Mar 12 21:13 .
+-rw-r--r-- 1 intel 197121 11K Mar 12 21:13 .hidden.txt
+-rwxr-xr-x 1 intel 197121  47 Mar 12 21:13 run.sh
