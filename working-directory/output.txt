@@ -1,0 +1,7 @@
+AAA is: 123
+total 40
+-rw-r--r--   1 chenxiaole  staff    12B Mar 16 00:47 output.txt
+drwxr-xr-x  13 chenxiaole  staff   416B Mar 16 00:44 ..
+-rw-r--r--   1 chenxiaole  staff    47B Mar 16 00:32 run.sh
+drwxr-xr-x   5 chenxiaole  staff   160B Mar 16 00:32 .
+-rw-r--r--   1 chenxiaole  staff    11K Mar 16 00:32 .hidden.txt
