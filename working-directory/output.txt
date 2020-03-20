@@ -1,0 +1,7 @@
+AAA is: 123
+total 40
+-rw-r--r--   1 samuel  staff    12B Mar 20 22:09 output.txt
+drwxr-xr-x  13 samuel  staff   416B Mar 20 22:07 ..
+-rw-r--r--   1 samuel  staff    47B Mar 20 22:02 run.sh
+drwxr-xr-x   5 samuel  staff   160B Mar 20 22:02 .
+-rw-r--r--   1 samuel  staff    11K Mar 20 22:02 .hidden.txt
