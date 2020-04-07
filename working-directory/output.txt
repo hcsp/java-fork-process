@@ -1,7 +1,0 @@
-AAA is: 123
-total 40
--rw-r--r--   1 song  staff    12B Apr  7 21:49 output.txt
-drwxr-xr-x  13 song  staff   416B Apr  7 21:49 ..
--rw-r--r--   1 song  staff    47B Apr  7 21:44 run.sh
-drwxr-xr-x   5 song  staff   160B Apr  7 21:44 .
--rw-r--r--   1 song  staff    11K Apr  7 21:44 .hidden.txt
