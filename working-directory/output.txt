@@ -1,7 +1,0 @@
-AAA is: 123
-total 18K
--rw-r--r-- 1 Enoch PC 197121  12 Apr  7 23:19 output.txt
-drwxr-xr-x 1 Enoch PC 197121   0 Apr  7 23:17 ..
-drwxr-xr-x 1 Enoch PC 197121   0 Apr  7 22:36 .
--rwxr-xr-x 1 Enoch PC 197121  47 Apr  7 22:36 run.sh
--rw-r--r-- 1 Enoch PC 197121 11K Apr  7 22:36 .hidden.txt
