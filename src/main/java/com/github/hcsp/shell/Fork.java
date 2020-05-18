@@ -12,8 +12,9 @@ public class Fork {
         // 环境变量是AAA=123
         ProcessBuilder processBuilder = new ProcessBuilder();
         processBuilder.command("sh", "run.sh")
-                .directory(getWorkingDir());
-        processBuilder.environment().put("AAA", "123");
+                .directory(getWorkingDir())
+                .redirectOutput(getOutputFile())
+                .environment().put("AAA", "123");
         processBuilder.start().waitFor();
     }
 
