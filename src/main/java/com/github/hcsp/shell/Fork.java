@@ -10,6 +10,11 @@ public class Fork {
         // 工作目录是项目目录下的working-directory目录（可以用getWorkingDir()方法得到这个目录对应的File对象）
         // 传递的命令是sh run.sh
         // 环境变量是AAA=123
+        ProcessBuilder pb = new ProcessBuilder("sh", "run.sh");
+        pb.directory(getWorkingDir());
+        pb.environment().put("AAA", "123");
+        pb.redirectOutput(getOutputFile());
+        pb.start().waitFor();
     }
 
     private static File getWorkingDir() {
