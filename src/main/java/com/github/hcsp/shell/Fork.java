@@ -14,7 +14,7 @@ public class Fork {
         ProcessBuilder processBuilder = new ProcessBuilder("sh", "run.sh");
         processBuilder.directory(getWorkingDir());
         Map<String, String> stringStringMap = processBuilder.environment();
-        stringStringMap.put("AAA","123");
+        stringStringMap.put("AAA", "123");
         processBuilder.redirectOutput(getOutputFile());
         processBuilder.start().waitFor();
     }
