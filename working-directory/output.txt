@@ -1,0 +1,7 @@
+AAA is: 123
+total 40
+-rw-r--r--   1 niuweizhe  staff    12B Dec 27 17:29 output.txt
+drwxr-xr-x  13 niuweizhe  staff   416B Dec 27 17:27 ..
+-rw-r--r--   1 niuweizhe  staff    47B Dec 27 17:19 run.sh
+drwxr-xr-x   5 niuweizhe  staff   160B Dec 27 17:19 .
+-rw-r--r--   1 niuweizhe  staff    11K Dec 27 17:19 .hidden.txt
