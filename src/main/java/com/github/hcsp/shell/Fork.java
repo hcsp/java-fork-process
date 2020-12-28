@@ -12,17 +12,20 @@ public class Fork {
         // 传递的命令是sh run.sh
         // 环境变量是AAA=123
         //设置1.可执行程序。2.参数
-        ProcessBuilder pb = new ProcessBuilder("sh", "run.sh");
+        ProcessBuilder builder = new ProcessBuilder("sh", "run.sh");
+
         //设置工作目录
-        pb.directory(getWorkingDir());
+        builder.directory(getWorkingDir());
+
         //设置环境变量
-        Map<String, String> env = pb.environment();
+        Map<String, String> env = builder.environment();
+
         env.put("AAA", "123");
         //从定向到输出到文件
-        pb.redirectOutput(getOutputFile());
+        builder.redirectOutput(getOutputFile());
         //输出到当前进程
 //        pb.inheritIO();
-        pb.start().waitFor();
+        builder.start().waitFor();
     }
 
     private static File getWorkingDir() {
