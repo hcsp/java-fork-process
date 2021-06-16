@@ -1,0 +1,7 @@
+AAA is: 123
+total 40
+-rw-r--r--   1 BowenWu  staff    12B Jun 16 14:01 output.txt
+drwxr-xr-x  13 BowenWu  staff   416B Jun 16 14:01 ..
+drwxr-xr-x   5 BowenWu  staff   160B Jun 16 14:01 .
+-rw-r--r--   1 BowenWu  staff    47B Jun 16 11:38 run.sh
+-rw-r--r--   1 BowenWu  staff    11K Jun 16 11:38 .hidden.txt
