@@ -1,0 +1,7 @@
+AAA is: 123
+total 17K
+-rw-r--r-- 1 Linsinan Administrators   13 Dec 29 00:15 output.txt
+drwxr-xr-x 9 Linsinan Administrators 4.0K Dec 29 00:14 ..
+drwxr-xr-x 2 Linsinan Administrators    0 Dec 28 23:57 .
+-rw-r--r-- 1 Linsinan Administrators  11K Dec 28 23:57 .hidden.txt
+-rwxr-xr-x 1 Linsinan Administrators   50 Dec 28 23:57 run.sh
