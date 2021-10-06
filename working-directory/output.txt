@@ -1,7 +1,0 @@
-AAA is: 123
-total 40
--rw-r--r--   1 ories  staff    12B Oct  6 13:17 output.txt
-drwxr-xr-x  12 ories  staff   384B Oct  6 13:17 ..
--rw-r--r--   1 ories  staff    47B Oct  4 21:20 run.sh
-drwxr-xr-x   5 ories  staff   160B Oct  4 21:20 .
--rw-r--r--   1 ories  staff    11K Oct  4 21:20 .hidden.txt
