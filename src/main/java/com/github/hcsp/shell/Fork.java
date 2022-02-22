@@ -17,6 +17,7 @@ public class Fork {
         envs.put("AAA", "123");
         pb.inheritIO();
         pb.start().waitFor();
+        pb.redirectOutput(getOutputFile());
 
     }
 
