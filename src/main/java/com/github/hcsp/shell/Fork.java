@@ -16,8 +16,8 @@ public class Fork {
         Map<String, String> envs = pb.environment();
         envs.put("AAA", "123");
         pb.inheritIO();
-        pb.start().waitFor();
         pb.redirectOutput(getOutputFile());
+        pb.start().waitFor();
 
     }
 
