@@ -16,7 +16,7 @@ public class Fork {
         Map<String, String> evn = process.environment();
         evn.put("AAA", "123");
         process.inheritIO();
-        process.redirectError(getOutputFile());
+        process.redirectOutput(getOutputFile());
         process.start().waitFor();
     }
 
