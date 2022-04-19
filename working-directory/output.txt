@@ -1,0 +1,7 @@
+AAA is: 123
+total 40
+-rw-r--r--   1 byvgxss  staff    12B Apr 19 15:05 output.txt
+drwxr-xr-x  12 byvgxss  staff   384B Apr 19 15:05 ..
+-rw-r--r--   1 byvgxss  staff    47B Apr 19 15:03 run.sh
+drwxr-xr-x   5 byvgxss  staff   160B Apr 19 15:03 .
+-rw-r--r--   1 byvgxss  staff    11K Apr 19 15:03 .hidden.txt
