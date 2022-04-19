@@ -3,6 +3,7 @@ package com.github.hcsp.shell;
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Map;
 
 public class Fork {
     public static void main(String[] args) throws Exception {
@@ -12,10 +13,10 @@ public class Fork {
         // 环境变量是AAA=123
         ProcessBuilder pb = new ProcessBuilder("sh", "run.sh");
         pb.directory(getWorkingDir());
-        pb.environment().put("AAA", "123");
+        Map<String, String> envs = pb.environment();
+        envs.put("AAA", "123");
         pb.redirectOutput(getOutputFile());
-        Process p = pb.start();
-        p.waitFor();
+        pb.start().waitFor();
     }
 
     private static File getWorkingDir() {
