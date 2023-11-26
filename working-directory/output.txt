@@ -1,7 +1,0 @@
-AAA is: 123
-total 40
--rw-r--r--@  1 linrunfeng  staff    12B Nov 21 20:35 output.txt
-drwxr-xr-x@ 12 linrunfeng  staff   384B Nov 21 20:35 ..
--rw-r--r--@  1 linrunfeng  staff    47B Nov 21 20:06 run.sh
-drwxr-xr-x@  5 linrunfeng  staff   160B Nov 21 20:06 .
--rw-r--r--@  1 linrunfeng  staff    11K Nov 21 20:06 .hidden.txt
