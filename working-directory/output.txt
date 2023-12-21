@@ -1,0 +1,7 @@
+AAA is: 123
+total 40
+-rw-r--r--   1 naliankeji  staff    12B Dec 21 18:09 output.txt
+drwxr-xr-x  12 naliankeji  staff   384B Dec 21 18:02 ..
+-rw-r--r--   1 naliankeji  staff    47B Dec 21 17:57 run.sh
+drwxr-xr-x   5 naliankeji  staff   160B Dec 21 17:57 .
+-rw-r--r--   1 naliankeji  staff    11K Dec 21 17:57 .hidden.txt
